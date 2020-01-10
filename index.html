@@ -14,28 +14,43 @@
         <div class="board">
             <div class ="row">
                 <div class="element" id='b11'></div>
-                <div class="element" id='b12'></div>
-                <div class="element" id='b13'></div>
+                <div class="element" id='b21'></div>
+                <div class="element" id='b31'></div>
             </div>
             <div class ="row">
-                    <div class="element" id='b21'></div>
+                    <div class="element" id='b12'></div>
                     <div class="element" id='b22'></div>
-                    <div class="element" id='b23'></div>
+                    <div class="element" id='b32'></div>
                 </div>
             <div class ="row">
-                <div class="element" id='b31'></div>
-                <div class="element" id='b32'></div>
+                <div class="element" id='b13'></div>
+                <div class="element" id='b23'></div>
                 <div class="element" id='b33'></div>
             </div>
         </div>
         
         <div class="status">
-            <div class="player">player1</div>
-           
+            <div class="player">player1</div> 
+            <div id="winning">winner</div>
         </div>
+        <section class="result">
+            <p>**GAME RESULT**</p>
+            <table class = "resultTable">
+                <tr>
+                    <th>Player 1</th>
+                    <th>Player 2</th>
+                    <th>Draw</th>
+                </tr>
+                <tr>
+                    <td id="player1Score">0</td>
+                    <td id="player2Score">0</td>
+                    <td id="drawScore">0</td>
+                </tr>
+            </table>
+            <div id = "single">Single Playmode</div>
+            <div id = "double">Double Playmode</div>
+        </section>
     </section>
-    
-    <div class="result">result</div>
     <script src = "app.js"></script>
 </body>
 </html>
